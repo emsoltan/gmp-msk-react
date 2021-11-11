@@ -85,7 +85,7 @@ nav {
 
 .heading-primary-main {
   display: block;
-  width:60vw;
+  width:50vw;
   height:25vh;
   letter-spacing: 10px;
   font-size: 3rem;
@@ -198,7 +198,7 @@ rgba(67, 98, 6, 0.205)  );
 }
 
 .btn:active,
-.navbar-list li a:active {
+.navbar-list li:active {
   transform: translateY(-1px);
   box-shadow: 5px 5px 3px 0px rgba(3, 3, 3, 0.75);
 }
