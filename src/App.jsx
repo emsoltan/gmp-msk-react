@@ -1,14 +1,13 @@
-import React from "react";
-import "./App.css";
-import "./UI/UI.css";
-import Header from "./components/Header";
-
+import React from 'react';
+import './App.css';
+import Routes from "./routes/Routes"
 const App = () => {
   return (
-    <main>
-      <Header />
-    </main>
+    <Routes>
+     <h1>Welcome to React</h1>
+    </Routes>
   );
-};
+}
 
 export default App;
+
